@@ -91,7 +91,9 @@
   // 现在的VUE的UI库有很多 mint-ui， iview
 
   // 额外的数据导入
- import {getHomeMultidata} from "@/network/home";
+ import {getHomeMultidata,
+        getHomeDateGoods
+ } from "@/network/home";
 
   // 导航图组件入口
  import NavBar from "@/components/common/navbar/NavBar";
@@ -109,8 +111,12 @@
   export default {
     name: "Home",
     components:{
+      // 导航图
       NavBar,
+      //网络请求
       getHomeMultidata,
+      getHomeDateGoods,
+      //轮播图
       MySwiper,
       HomeRecommendView,
       FeatueView,
@@ -121,15 +127,34 @@
         banners:[],
         recommends:[],
         titles: ['流行','精款','新选'],
+        //商品展示，流行新款精选
+        goods:{
+          'pop':{page:0,list:[]},
+          'news':{page:0,list:[]},
+          'sell':{page:0,list:[]}
+        }
       }
     },
     created() {
-      getHomeMultidata().then(res=>{
-        this.banners=res.data.banner.list;
-        // 由于接口更新，banner.list 里面才有书
-        // console.log(this.banners);
-        this.recommends=res.data.recommend.list;
-      })
+      //根据vue的生命周期，created在vue实例创建后就被调用，最好别写复杂逻辑
+      this.getHomeMultidata()
+      // 商品请求
+      this.getHomeDateGoods()
+    },
+    methods:{
+      getHomeMultidata(){
+        getHomeMultidata().then(res=>{
+          this.banners=res.data.banner.list;
+          // 由于接口更新，banner.list 里面才有书
+          // console.log(this.banners);
+          this.recommends=res.data.recommend.list;
+        })
+      },
+      getHomeDateGoods(){
+        getHomeDateGoods(type,page).then(res=>{
+
+        })
+      }
     }
   }
 </script>

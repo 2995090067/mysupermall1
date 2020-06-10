@@ -5,3 +5,13 @@ export function getHomeMultidata() {
     url:'/home/multidata'
   })
 }
+//获取主页商品列表
+export function getHomeDateGoods(type,page) {
+  return requset({
+    url:'/home/date',
+    params:{
+      type,
+      page
+    }
+  })
+}
