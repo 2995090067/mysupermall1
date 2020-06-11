@@ -8,7 +8,7 @@ export function getHomeMultidata() {
 //获取主页商品列表
 export function getHomeDateGoods(type,page) {
   return requset({
-    url:'/home/date',
+    url:'/home/data',
     params:{
       type,
       page
