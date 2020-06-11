@@ -36,6 +36,9 @@
   .goodsItem img{
     width: 100%;
     border-radius: 5px;
+
+    /*这里会造成图片拉升的效果，但是图片大小都不一样，暂时不管了*/
+    height: 100%;
   }
   /*绝对定位*/
   .goods-info{
@@ -61,6 +64,7 @@
     position: relative;
   }
   /*伪元素*/
+  /*css中的一些伪类，就像我们常用到的a:hover*/
   .goods-info .collect::before {
     content: '';
     position: absolute;

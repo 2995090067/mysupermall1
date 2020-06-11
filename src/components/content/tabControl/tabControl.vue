@@ -29,6 +29,8 @@
     methods:{
       tabClick(index){
         this.currentIndex=index;
+        // 内部传外部自定义事件
+        this.$emit('tabType',index)
       }
     }
   }

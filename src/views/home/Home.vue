@@ -4,8 +4,9 @@
     <my-swiper :banners="banners"></my-swiper>
     <home-recommend-view :recommends="recommends"></home-recommend-view>
     <featue-view></featue-view>
-    <tab-control :titles="titles" class="tab-control"></tab-control>
-    <good-list :goods="goods['pop'].list"></good-list>
+    <tab-control :titles="titles" class="tab-control"
+                 @tabType="tabTypeClick"></tab-control>
+    <good-list :goods=showGoods></good-list>
   </div>
 </template>
 
@@ -58,7 +59,13 @@
           'pop':{page:0,list:[]},
           'new':{page:0,list:[]},
           'sell':{page:0,list:[]}
-        }
+        },
+        currentIndexType:'pop'
+      }
+    },
+    computed:{
+      showGoods(){
+        return this.goods[this.currentIndexType].list
       }
     },
     created() {
@@ -70,6 +77,9 @@
       this.getHomeDateGoods('sell')
     },
     methods:{
+      /**
+       * 网络请求
+       */
       getHomeMultidata(){
         getHomeMultidata().then(res=>{
           this.banners=res.data.banner.list;
@@ -86,6 +96,24 @@
           this.goods[type].list.push(...res.data.list);
           this.goods[type].page +=1;
         })
+      },
+      /**
+       * 事件监听
+       * @param index
+       */
+      //type状态点击切换
+      tabTypeClick(index){
+        switch (index) {
+          case 0:
+            this.currentIndexType='pop'
+            break;
+          case 1:
+            this.currentIndexType='new'
+            break;
+          case 2:
+            this.currentIndexType='sell'
+            break;
+        }
       }
     }
   }
