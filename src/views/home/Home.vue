@@ -23,7 +23,7 @@
  //轮播图组件入口
  import MySwiper from "@/components/content/mySwiper/MySwiper";
  //特别推荐
- import tabControl from "@/components/content/tabControl/tabControl";
+ import TabControl from "@/components/content/tabControl/TabControl";
  // 商品列表
   import GoodList from "@/components/content/goodsList/GoodList";
 
@@ -45,7 +45,7 @@
       MySwiper,
       HomeRecommendView,
       FeatueView,
-      tabControl,
+      TabControl,
       GoodList
 
     },

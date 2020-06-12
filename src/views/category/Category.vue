@@ -1,15 +1,231 @@
 <template>
   <div>
     <h1>分类</h1>
+    <div class="wrapper">
+      <ul class="right">
+        <li>dhh1</li>
+        <li>dhh2</li>
+        <li>dhh3</li>
+        <li>dhh4</li>
+        <li>dhh5</li>
+        <li>dhh6</li>
+        <li>dhh7</li>
+        <li>dhh8</li>
+        <li>dhh9</li>
+        <li>dhh10</li>
+        <li>dhh11</li>
+        <li>dhh12</li>
+        <li>dhh13</li>
+        <li>dhh14</li>
+        <li>dhh15</li>
+        <li>dhh16</li>
+        <li>dhh17</li>
+        <li>dhh18</li>
+        <li>dhh19</li>
+        <li>dhh20</li>
+        <li>dhh21</li>
+        <li>dhh22</li>
+        <li>dhh23</li>
+        <li>dhh24</li>
+        <li>dhh25</li>
+        <li>dhh26</li>
+        <li>dhh27</li>
+        <li>dhh28</li>
+        <li>dhh29</li>
+        <li>dhh30</li>
+        <li>dhh31</li>
+        <li>dhh32</li>
+        <li>dhh33</li>
+        <li>dhh34</li>
+        <li>dhh35</li>
+        <li>dhh36</li>
+        <li>dhh37</li>
+        <li>dhh38</li>
+        <li>dhh39</li>
+        <li>dhh40</li>
+        <li>dhh41</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh42</li>
+        <li>dhh43</li>
+        <li>dhh44</li>
+        <li>dhh45</li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <script>
+  import BetterScroll from 'better-scroll'
   export default {
-    name: "Category"
+    name: "Category",
+    components:{
+      BetterScroll
+    }
   }
 </script>
 
 <style scoped>
-
+  .right{
+    height: 100px;
+    background-color: #e22020;
+    
+    /*width: 100%;*/
+    /*!*overflow: hidden;*!*/
+    /*overflow: scroll;*/
+  }
 </style>
